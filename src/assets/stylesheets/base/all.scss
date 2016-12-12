@@ -1,0 +1,77 @@
+// =======================
+// Import a fancy font
+// =======================
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700,400italic);
+
+@import 'variables';
+
+// Example elements
+h1, h2 {
+  font-family: $font-stack;
+  text-transform: uppercase;
+  color: $primary-color;
+  font-weight: 400;
+  margin : 0;
+}
+
+h3, h4, h5 {
+  font-family: $font-stack;
+  text-transform: uppercase;
+  color: $secondary-color;
+  font-weight: 400;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.75em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+h5 {
+  font-size: 1.25em;
+}
+
+a {
+  color: $tertiary-color;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  color: $accent-color;
+}
+
+ul {
+  margin: 1em 0em;
+}
+
+li {
+  list-style: none;
+}
+
+// =======================
+// MAIN
+// =======================
+
+html, html a {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+body {
+  font-family: $font-stack;
+  margin: 0px;
+}
+
